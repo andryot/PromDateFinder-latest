@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat.ChatActivity"
+    android:orientation="vertical">
+    <include layout="@layout/chat_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sendLayout"
+        android:layout_marginTop="50dp"
+        android:id="@+id/chat_scroll_view">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_recyclerView"
+            android:scrollbars="vertical"
+            android:background="@color/white"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sendLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#FFFFFF">
+
+    <EditText
+        android:layout_weight="0.8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:maxHeight="100dp"
+        android:padding="7dp"
+        android:hint="sporočilo..."
+        android:id="@+id/message"
+        android:background="@drawable/message_radius"
+        android:maxLines="4"
+        />
+        <ImageView
+            android:layout_weight="0.15"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:text="Send"
+            android:id="@+id/send"
+            android:src="@drawable/ic_send"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

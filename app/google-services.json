@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1031672841807",
+    "firebase_url": "https://promdatefinder-549fb.firebaseio.com",
+    "project_id": "promdatefinder-549fb",
+    "storage_bucket": "promdatefinder-549fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031672841807:android:02dfaa0c5a1ce64f",
+        "android_client_info": {
+          "package_name": "com.example.promdatefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031672841807-7e81qi48v8gql4ja8oeip418t5ts4rgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.promdatefinder",
+            "certificate_hash": "60693cf42a3a6501e7943b23436d0569b102c80f"
+          }
+        },
+        {
+          "client_id": "1031672841807-lnr2uusp68j9osi9b3l3k3a322flnvj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrQB9zsAGLevqU4ku3-tUgdwvEiCQn2yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031672841807-lnr2uusp68j9osi9b3l3k3a322flnvj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
